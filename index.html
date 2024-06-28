@@ -1,107 +1,152 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>top_menu</title>
+    <title>Top Menu</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <div class="logo">
-    <img src="лого.avif" >
-  </div>
-
-___________________(1)
-  <body>
-    
-    <div class="card"> 
-        <div class="card__top">
-            <div href="#!" class="card__img">
-                <img src="печение.jpg" alt="Печение пщеничное шеколадной крошкой">  
-            </div>     
-            <div class="card__lebel"> </div>
+</head>
+<body>
+    <header>
+        <div class="all_header_menu">
+            <div class="logo">
+                <h1>Cool cookies</h1>
+            </div>
+            <div class="top_menu">
+                <ul>
+                    <li><a href="#cookie-container">Range</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Registration</a></li>
+                    <li><a href="#basket">Basket</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="card__botton"> 
-            <div class="card__prices">
-                <a class="card__prices card__price--discount">(50%)10$</a>
-                <a class="card__price card__price--common">20$</a>
-                <h4>описание</h4>
+    </header>
+    
+    <div class="card-container">
+        <div class="card"> 
+            <div class="card__top">
+                <div class="card__img">
+                    <img src="печение.jpg" alt="Печение пщеничное шеколадной крошкой">  
+                </div>     
+                <div class="card__label"></div>
+            </div>
+            <div class="card__bottom"> 
+                <div class="card__prices">
+                    <a class="card__price card__price--discount">(50%) 10$</a>
+                    <a class="card__price card__price--common">20$</a>
+                    <h4>Описание</h4>
                     <a class="h4">Печение пщеничное</a>
-                    <a class="h4">шеколадной крошкой</a>
+                    <a class="h4">Шеколадной крошкой</a>
+                </div>
+                <a href="#!" class="card__title">Купить товар</a>
+                <button class="card__button">В карзину</button>
             </div>
-            <a href="#!" class="card__title">купить товар </a>
-            <button class="card__button">карзину</button>
         </div>
-    </div>
-<script src="./script/main.js"></script>
-___________________
 
-
-___________________(2)
-  <body>
-    
-    <div class="card"> 
-        <div class="card__top">
-            <div href="#!" class="card__img">
-                <img src="шеколадное печение.jpg" alt="Печение шеколадное шеколадной крошкой">
+        <div class="card" id="cookie-container"> 
+            <div class="card__top">
+                <div class="card__img">
+                    <img src="шеколадное печение.jpg" alt="Печение шеколадное шеколадной крошкой">
+                </div>
+                <div class="card__label"></div>
             </div>
-            <div class="card__lebel"> </div>
-        </div>
-        <div class="card__botton"> 
-            <div class="card__prices">
-                <a class="card__prices card__price--discount">50% 10$</a>
-                <a class="card__price card__price--common">20$</a>
-                <h4>описание</h4>
+            <div class="card__bottom"> 
+                <div class="card__prices">
+                    <a class="card__price card__price--discount">50% 10$</a>
+                    <a class="card__price card__price--common">20$</a>
+                    <h4>Описание</h4>
                     <a class="h4">Печение шеколадное</a>
-                    <a class="h4">шеколадной крошкой</a>
+                    <a class="h4">Шеколадной крошкой</a>
+                </div>
+                <a href="#!" class="card__title">Купить товар</a>
+                <button class="card__button">В карзину</button>
             </div>
-            <a href="#!" class="card__title">купить товар </a>
-            <button class="card__button">карзину</button>
         </div>
-    </div>
-<script src="./script/main.js"></script>
-___________________
 
-___________________(3)
-  <body>
-    
-    <div class="card"> 
-        <div class="card__top">
-            <div href="#!" class="card__img">
-                <img src="печение с посыпкой.jpg" alt="Печение с белой посыпкой">
+        <div class="card"> 
+            <div class="card__top">
+                <div class="card__img">
+                    <img src="печение с посыпкой.jpg" alt="Печение с белой посыпкой">
+                </div>
+                <div class="card__label"></div>
             </div>
-            <div class="card__lebel"> </div>
-        </div>
-        <div class="card__botton"> 
-            <div class="card__prices">
-                <a class="card__prices card__price--discount">50% 10$</a>
-                <a class="card__price card__price--common">20$</a>
-                <h4>описание</h4>
-                    <a class="h4">Печение с посыпкой </a>
+            <div class="card__bottom"> 
+                <div class="card__prices">
+                    <a class="card__price card__price--discount">50% 10$</a>
+                    <a class="card__price card__price--common">20$</a>
+                    <h4>Описание</h4>
+                    <a class="h4">Печение с посыпкой</a>
+                </div>
+                <a href="#!" class="card__title">Купить товар</a>
+                <button class="card__button">В карзину</button>
             </div>
-            <a href="#!" class="card__title">купить товар </a>
-            <button class="card__button">карзину</button>
         </div>
-    </div>
-<script src="./script/main.js"></script>
-___________________
+        <div class="card"> 
+            <div class="card__top">
+                <div class="card__img">
+                    <img src="новогоднее печение.jpg" alt="Новогоднее печение">
+                </div>
+                <div class="card__label"></div>
+            </div>
+            <div class="card__bottom"> 
+                <div class="card__prices">
+                    <a class="card__price card__price--discount">50% 10$</a>
+                    <a class="card__price card__price--common">20$</a>
+                    <h4>Описание</h4>
+                    <a class="h4">Новогоднее печение</a>
+                </div>
+                <a href="#!" class="card__title">Купить товар</a>
+                <button class="card__button">В карзину</button>
+            </div>
+        </div>
 
- </body>
-  <body>
-<header> 
-    <div class="all_heder_mune">
-        <div class="logo">
-            <h1>
-                Cool cookies
-            </h1> 
+        <div class="card"> 
+            <div class="card__top">
+                <div class="card__img">
+                    <img src="печение с чемта.jpg" alt="Печение с чемта">
+                </div>
+                <div class="card__label"></div>
+            </div>
+            <div class="card__bottom"> 
+                <div class="card__prices">
+                    <a class="card__price card__price--discount">50% 10$</a>
+                    <a class="card__price card__price--common">20$</a>
+                    <h4>Описание</h4>
+                    <a class="h4">Печение с чемта</a>
+                </div>
+                <a href="#!" class="card__title">Купить товар</a>
+                <button class="card__button">В карзину</button>
+            </div>
         </div>
-        <div class="Top_menu">
-            <ul>
-                <li><a href="#">range</a></li>
-                <li><a href="#">home</a></li>
-                <li><a href="#">registration</a></li>
-                <li><a href="#">basket</a></li>
-            </ul>
+
+        <div class="card"> 
+            <div class="card__top">
+                <div class="card__img">
+                    <img src="печение с эммдемс.jpg" alt="Печение с эммдемс">
+                </div>
+                <div class="card__label"></div>
+            </div>
+            <div class="card__bottom"> 
+                <div class="card__prices">
+                    <a class="card__price card__price--discount">50% 10$</a>
+                    <a class="card__price card__price--common">20$</a>
+                    <h4>Описание</h4>
+                    <a class="h4">Печение с эммдемс</a>
+                </div>
+                <a href="#!" class="card__title">Купить товар</a>
+                <button class="card__button">В карзину</button>
+            </div>
         </div>
     </div>
-</header>
-  </body>
-  </html>
+
+    <div class="basket-container" id="basket">
+        <h2>Basket</h2>
+        <div class="basket">
+            
+        </div>
+        <button class="confirm-purchase-button">Подтвердить покупку</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
